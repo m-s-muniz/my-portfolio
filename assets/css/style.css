@@ -1,0 +1,113 @@
+/* color variables for easy to remember names */
+:root {
+    --primary: #7884a8;
+    --secondary: #c0c0c0;
+    --accent: #873655;
+}
+
+/* remove default CSS styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general settings for all body styling */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+/* header styling  */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary);
+    justify-content: space-between;
+    padding: 35px;
+}
+
+
+header h1 {
+    box-shadow: 8px 8px 25px rgba(50,50,50,.9);
+    color: var(--accent);
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: var(--secondary);
+    border: 5px solid var(--accent);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav {
+    margin: 20px;
+}
+
+header nav ul li a {
+    padding: 8px;
+    margin: 20px 20px 0 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    background: var(--accent);
+    color: var(--primary);
+    border-radius: 30px;
+}
+
+/* hero styling */
+.hero {
+    background-image: url("../images/Background-1.png");
+    display: flex;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.hero img {
+    height: 425px;
+}
+
+.hero .quote {
+    font-size: 18px;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    color: white;
+}
+
+.hero .quote #quote-text {
+    font-size: 26px;
+}
+
+
+/* utility class styling  */
+.title {
+    border-right: 5px solid var(--accent);
+    min-height: 100%;
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 150px;
+    min-width: 20%;
+    max-width: 24%;
+}
+
+.title h2 {
+    font-size: 45px;
+}
