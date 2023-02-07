@@ -1,6 +1,6 @@
 /* color variables for easy to remember names */
 :root {
-    --primary: #171acf;
+    --primary: #177fcf;
     --secondary: #d9d9d9a4;
     --tertiary: #272727;
     --accent: #842840;
@@ -158,9 +158,9 @@ header nav ul li a:hover {
 }
 
 .project {
+    display: flex;
     border: solid;
     color: var(--accent);
-    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     text-decoration: none;
@@ -185,27 +185,24 @@ header nav ul li a:hover {
 }
 
 .project3 {
-    background-image: url("../images/");
+    background-image: url("../images/calculator.png");
     background-position: 60% 50%;
 }
 
 .project4 {
-    background-image: url("../images/");
+    background-image: url("../images/pastel-puzzle.png");
 }
 
 .project5 {
-    background-image: url("../images/ ");
+    background-image: url("../images/run-buddy.png");
 }
 
 .project-label {
-    background-color: var(--secondary);
     background-color: var(--label);
     color: var(--secondary);
     padding: 10px;
     width: 40%;
 }
-
-
 
 
 
@@ -262,3 +259,10 @@ footer ul li a:hover {
     color: var(--secondary);
     border-radius: 10px;
 }
+
+
+
+
+
+/* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
+/* Still need to work on */
