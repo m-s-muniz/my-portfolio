@@ -34,3 +34,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ![Screen shot](./assets/images/wireframe.png)
 ![Screen shot](./assets/images/screenshoot-portfolio.png)
+
+## link to Portfoilio
+
+https://m-s-muniz.github.io/my-portfolio/
