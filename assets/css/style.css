@@ -161,12 +161,13 @@ header nav ul li a:hover {
     display: flex;
     border: solid;
     color: var(--accent);
-    justify-content: flex-end;
+    justify-content:flex-end;
     align-items: flex-end;
     text-decoration: none;
     background-size: cover;
     background-position: center;
     opacity: 0.7;
+
 }
 
 .project:hover {
@@ -185,7 +186,7 @@ header nav ul li a:hover {
 }
 
 .project3 {
-    background-image: url("../images/calculator.png");
+    background-image: url("../images/CoordiNation-screenshot.png");
     background-position: 60% 50%;
 }
 
